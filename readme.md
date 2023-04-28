@@ -80,10 +80,12 @@ This repository contains a Java-based backend application using the Spring Boot 
 
 ## API Endpoints
 
-- **GET** `/api/v1/resource`: Retrieve all resources.
-- **POST** `/api/v1/resource`: Create a new resource.
-- **PUT** `/api/v1/resource/{id}`: Update an existing resource with the specified ID.
-- **DELETE** `/api/v1/resource/{id}`: Delete a resource with the specified ID.
+- **GET** `/notes`: Retrieve all notes.
+- **POST** `/notes`: Create a new note.
+- **GET** `/notes/{id}`: Retrieve a note by its ID.
+- **PUT** `/notes/{id}`: Update an existing note with the specified ID.
+- **DELETE** `/notes/{id}`: Delete a note with the specified ID.
+- **PATCH** `/notes/{id}`: Partially update a note with the specified ID.
 
 ## Contributing
 
