@@ -13,7 +13,7 @@ This repository contains a Java-based backend application using the Spring Boot 
 - Java 17
 - Oracle JDK 19
 - MySQL Server
-- Maven (optional, for building and running the project)
+- Gradle (optional, for building and running the project)
 
 ## Getting Started
 
